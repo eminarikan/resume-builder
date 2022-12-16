@@ -1,0 +1,95 @@
+{
+    "fullName": "M. Emin Arıkan",
+    "title": "Software Developer",
+    "email": "muhammeteminarikan@gmail.com",
+    "phone": "+90 530 833 1727",
+    "linkedin": "linkedin/in/eminarikan1",
+    "website": "eminarikan.dev",
+    "location": "Ankara/Turkey",
+    "sections": [
+        {
+            "header": "Experiences",
+            "entries": [
+                {
+                    "header": "Java Instructor - Vektörel Bilişim",
+                    "detail": "2022-...",
+                    "body": "Instructed 6 different student groups in topics of Java Programming Language, SQL(MySQL, H2, Sqlite), ORM(Hibernate, Room) Web Development(Html, Css, Js, Tomcat, Servlet, Jsp), Spring Framework(Core , MVC, Rest, Data JPA, Security) and Anroid",
+                    "link": "www.link.com",
+                    "tags": [
+                        "Java",
+                        "Spring MVC",
+                        "Thymeleaf"
+                    ]
+                },
+                {
+                    "header": "Entry 2",
+                    "detail": "Sociology",
+                    "body": "    Transparent Description Lorem ipsum dolor sit\namet consectetur, adipisicing elit. Blanditiis,\nmagni. Lorem ipsum dolor sit amet, consectetur\nadipisicing elit. Perferendis, velit?\n",
+                    "link": "www.link.com",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "header": "Experiences",
+            "entries": [
+                {
+                    "header": "Java Instructor - Vektörel Bilişim",
+                    "detail": "2022-...",
+                    "body": "Instructed 6 different student groups in topics of Java Programming Language, SQL(MySQL, H2, Sqlite), ORM(Hibernate, Room) Web Development(Html, Css, Js, Tomcat, Servlet, Jsp), Spring Framework(Core , MVC, Rest, Data JPA, Security) and Anroid",
+                    "link": "www.link.com",
+                    "tags": [
+                        "Java",
+                        "Spring MVC",
+                        "Thymeleaf"
+                    ]
+                },
+                {
+                    "header": "Entry 2",
+                    "detail": "Sociology",
+                    "body": "    Transparent Description Lorem ipsum dolor sit\namet consectetur, adipisicing elit. Blanditiis,\nmagni. Lorem ipsum dolor sit amet, consectetur\nadipisicing elit. Perferendis, velit?\n",
+                    "link": "www.link.com",
+                    "tags": []
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "icon": "Java-Light.svg",
+            "name": "Java",
+            "rate": "FIVE"
+        },
+        {
+            "icon": "MYSQL-Light.svg",
+            "name": "MySQL",
+            "rate": "FIVE"
+        },
+        {
+            "icon": "Hibernate-Light.svg",
+            "name": "Hibernate",
+            "rate": "FIVE"
+        },
+        {
+            "icon": "Maven-Light.svg",
+            "name": "Maven",
+            "rate": "FIVE"
+        },
+        {
+            "icon": "HTML-Light.svg",
+            "name": "HTML",
+            "rate": "FIVE"
+        },
+        {
+            "icon": "Spring-Light.svg",
+            "name": "Spring",
+            "rate": "FOUR"
+        },
+        
+        {
+            "icon": "Docker-Light.svg",
+            "name": "Docker",
+            "rate": "THREE"
+        }
+    ]
+}

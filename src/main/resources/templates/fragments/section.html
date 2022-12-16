@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <div th:fragment="section(section)" class="flex p-05 grow column">
+        <span th:text="${section.header}" class="section-header">Section Header</span>
+        <div th:each="entry : ${section.entries}" class="flex p-05 column grow indent bg rounded">
+            <div th:replace="~{fragments/entry.html :: entry(${entry})}"></div>
+        </div>
+    </div>
+</html>

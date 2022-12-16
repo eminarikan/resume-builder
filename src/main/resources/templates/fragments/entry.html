@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="entry(entry)" class="flex p-05 column grow indent bg rounded">
+    <div class="flex p-05 grow space-between gap">
+        <span th:text="${entry.header}" class="">Entry Header</span>
+        <span th:text="${entry.detail}" class="colored sm">Detail</span>
+    </div>
+    <div th:replace="~{fragments/chip.html :: chip(${entry.tags})}">
+
+    </div>
+    <span  th:text="${entry.body}" class="transparent indent justify"
+        >Transparent Description Lorem ipsum dolor sit
+        amet consectetur, adipisicing elit. Blanditiis,
+        magni. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Perferendis, velit?</span
+    >
+    <span th:text="${entry.link}" class="sm end">link.maybe</span>
+</div>
+</html>

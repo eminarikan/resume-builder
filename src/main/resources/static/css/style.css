@@ -1,0 +1,139 @@
+ :root{
+  --primary: #006a5c;
+  --transparent: rgba(0,0,0,.5);
+  --bg-gray: #F4F2ED;
+ }
+ @import "sheets-of-paper.css";
+ .page {
+   width: 21cm;
+   min-height: 29.7cm;
+   padding-left: 1cm;
+   padding-top: 1cm;
+   padding-right: 1cm;
+   padding-bottom: 1cm;
+ }
+ @page {
+   size: A4 portrait;
+   margin-left: 1cm;
+   margin-top: 1cm;
+   margin-right: 1cm;
+   margin-bottom: 1cm;
+ }
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20;
+  padding: 0;
+  background-color: wheat;
+  font-family: sans-serif;
+  background-color: var(--primary);
+ }
+
+ .sheet{
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+ }
+
+ .chip{
+  background-color: var(--primary);
+  color: white;
+ }
+
+ .column{
+  flex-direction: column;
+ }
+ .grow{
+    flex-grow: 1;
+ }
+ .border{
+  border: 1px solid black;
+ }
+ .name{
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+ .section-header{
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-top: 2%;
+ }
+ .transparent{
+  color: var(--transparent);
+ }
+ .colored{
+  color: var(--primary);
+ }
+ .center{
+  text-align: center;
+ }
+.mt-1{
+  margin-top: 1%;
+}
+.mr-1{
+  margin-right: 1%;
+}
+ .side{
+  min-width: 30%;
+  max-width: 30%;
+ }
+ .space-between{
+  justify-content: space-between;
+ }
+ .space-around{
+  justify-content: space-around;
+ }
+ .gap{
+  gap:1%;
+ }
+ .end{
+  text-align: end;
+ }
+ .indent{
+  margin-left: 5%;
+  margin-top: 1%;
+ }
+
+ .sm{
+  font-size: .8rem;
+ }
+ .no-dot{
+  list-style: none;
+ }
+ .items-center{
+  align-items: center;
+ }
+ .bg{
+  /* background-color: rgb(245,245 ,245); */
+  background-color: var(--bg-gray);
+ }
+ .rounded{
+  border-radius: 5px;
+ }
+ .justify{
+  text-align: justify;
+ }
+.p-1{
+  padding: 1%;
+}
+.p-05{
+  padding: .5%;
+}
+.flex{
+  display: flex;
+}
+.w-6{
+  width: 1rem;
+}
+.h-6{
+  height: 1rem;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: auto;
+}
+
