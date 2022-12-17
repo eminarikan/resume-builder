@@ -10,7 +10,7 @@
     <body>
         <div class="sheet page column rounded">
             <header class="flex p-05 gap">
-                <img th:src="@{/photo.jpg}" class="avatar rounded" alt="">
+                <!-- <img th:src="@{/photo.jpg}" class="avatar rounded" alt=""> -->
                 <div class="flex p-05 column ">
                     <span class="name " th:text="${person.fullName}">Name Surname</span>
                     <span class="transparent "  th:text="${person.title}">Title</span>
@@ -59,7 +59,7 @@
                         <div th:replace="~{fragments/section.html :: section(${section})}"></div>
                     </div>
                 </div>
-                <hr class="transparent" />
+                
                 <div class="side">
                     <!-- Section Start -->
                     <div class="flex p-05 grow column">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
-<div th:fragment="chip(tags)" class="flex p-05 gap grow indent bg rounded">
-    <span th:each="t : ${tags}" class="sm chip rounded p-05" th:text="${t}"></span>
+<div th:fragment="chip(tags)" class="flex gap">
+    <span th:each="t : ${tags}" class="sm chip rounded p-05 " th:text="${t}"></span>
 </div>
 </html>

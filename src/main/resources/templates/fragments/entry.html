@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
-<div th:fragment="entry(entry)" class="flex p-05 column grow indent bg rounded">
+<div th:fragment="entry(entry)" class="flex p-05 mt-1 column grow indent">
     <div class="flex p-05 grow space-between gap">
         <span th:text="${entry.header}" class="">Entry Header</span>
         <span th:text="${entry.detail}" class="colored sm">Detail</span>

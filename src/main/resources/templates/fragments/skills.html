@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html  xmlns:th="http://www.thymeleaf.org">
     <ul th:fragment="skillList(skills)" class="no-dot flex p-05 column gap indent p-1">
-        <li th:each="skill : ${skills}" class="flex p-05 grow mt-1 bg rounded items-center space-between">
+        <li th:each="skill : ${skills}" class="flex p-05 grow mt-1 items-center space-between">
             <span class="flex items-center gap">
-                <img class="w-6 h-6" th:src="@{/icons/skills/{name} (name = ${skill.icon})}" alt="">
-                <span th:text="${skill.name}"></span>
+                <img class="w-8 h-8 mr-1" th:src="@{/icons/skills/{name} (name = ${skill.icon})}" alt="">
+                <span th:text="${skill.name}" ></span>
             </span>
-            <span>
+            <span >
                 <img th:if="${skill.rate.rate} == 5" th:src="@{/icons/five.svg}" alt="">
                 <img th:if="${skill.rate.rate} == 4" th:src="@{/icons/four.svg}" alt="">
                 <img th:if="${skill.rate.rate} == 3" th:src="@{/icons/three.svg}" alt="">
