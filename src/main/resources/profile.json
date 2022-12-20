@@ -145,6 +145,11 @@
             "rate": "FOUR"
         },
         {
+            "icon": "Linux-Dark.svg",
+            "name": "Linux",
+            "rate": "FOUR"
+        },
+        {
             "icon": "Bash-Dark.svg",
             "name": "Bash",
             "rate": "FOUR"

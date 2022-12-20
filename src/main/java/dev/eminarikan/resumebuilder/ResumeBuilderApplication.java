@@ -31,14 +31,4 @@ public class ResumeBuilderApplication {
 		return person;
 	}
 
-
-	CommandLineRunner commandLineRunner() {
-		return new CommandLineRunner() {
-			@Override
-			public void run(String... args) throws Exception {
-				
-			}
-		};
-	}
-
 }
