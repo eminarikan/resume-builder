@@ -7,6 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.io.ClassPathResource;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
@@ -24,10 +25,11 @@ public class ResumeBuilderApplication {
 	@Bean
 	public Person person() throws StreamReadException, DatabindException, IOException {
 
-		File jsonFile = new File("src/main/resources/profile.json");
+		//File jsonFile = new File("src/main/resources/profile.json");
+		File jsonFile2 = new ClassPathResource("profile.json").getFile();
 
 		ObjectMapper mapper = new ObjectMapper();
-		Person person = mapper.readValue(jsonFile, Person.class);
+		Person person = mapper.readValue(jsonFile2, Person.class);
 		return person;
 	}
 
