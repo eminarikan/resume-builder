@@ -3,7 +3,6 @@ package dev.eminarikan.resumebuilder;
 import java.io.File;
 import java.io.IOException;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -25,7 +24,7 @@ public class ResumeBuilderApplication {
 	@Bean
 	public Person person() throws StreamReadException, DatabindException, IOException {
 
-		//File jsonFile = new File("src/main/resources/profile.json");
+		
 		File jsonFile2 = new ClassPathResource("profile.json").getFile();
 
 		ObjectMapper mapper = new ObjectMapper();
