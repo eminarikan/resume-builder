@@ -1,84 +1,57 @@
 {
-    "fullName": "M. Emin Arıkan",
+    "fullName": "İsim Soyisim",
     "title": "Software Developer",
-    "email": "muhammeteminarikan@gmail.com",
-    "phone": "+90 530 833 1727",
-    "linkedin": "linkedin/in/eminarikan1",
-    "website": "eminarikan.dev",
-    "location": "Ankara/Turkey",
+    "email": "abc@abc.com",
+    "phone": "555 444 3322",
+    "linkedin": "linkedin-link",
+    "website": "website-link",
+    "location": "lokasyon",
     "sections": [
         {
-            "header": "Experiences",
+            "header": "Deneyimler",
             "entries": [
                 {
-                    "header": "Java Instructor - Vektörel Bilişim",
-                    "detail": "2022-...",
-                    "body": "Instructed 6 different student groups in topics of Java Programming Language, SQL(MySQL, H2, Sqlite), ORM(Hibernate, Room) Web Development(Html, Css, Js, Tomcat, Servlet, Jsp), Spring Framework(Core , MVC, Rest, Data JPA, Security) and Anroid"
+                    "header": "Pozisyon - Kurum",
+                    "detail": "Tarihler",
+                    "body": "iş açıklaması"
                 }
             ]
         },
         {
-            "header": "Projects",
+            "header": "Projeler",
             "entries": [
                 {
-                    "header": "Resume Builder",
-                    "detail": "Tool",
-                    "body": "Resume Builder is a resume generator that made with HTML, CSS, Thymeleaf and JSON. The tool will read person data from json file and parse html accordindly with Thymeleaf. This very document is made with this tool.",
-                    "link": "https://github.com/eminarikan/resume-builder",
+                    "header": "Proje 1",
+                    "detail": "Tür",
+                    "body": "Açıklama",
+                    "link": "projeye link",
                     "tags": [
-                        "Spring", "Web",  "JSON", "Thymeleaf", "HTML", "CSS"
-                    ] 
-                },{
-                    "header": "VeterinerApp",
-                    "detail": "Web Mvc",
-                    "body": "VeterinerApp is Web MVC project that manages pets and pet owners for veteriner clinic.",
-                    "link": "https://github.com/eminarikan/VeterinerApp",
-                    "tags": [
-                        "Spring", "Boot", "Web", "MVC", "Data", "JPA", "H2", "Maven","TailwindCSS", "Thymeleaf"
+                        "Etiket", "Etiket",  "Etiket", "Etiket", "Etiket", "Etiket"
                     ] 
                 },
                 {
-                    "header": "JobTracker",
-                    "detail": "Web Mvc",
-                    "body": "JobTracker is a Web MVC project implement a specification that could be found in github repository of this project",
-                    "link": "https://github.com/eminarikan/jobtracker",
+                    "header": "Proje 2",
+                    "detail": "Tür",
+                    "body": "Açıklama",
+                    "link": "projeye link",
                     "tags": [
-                        "Spring", "Boot", "Web", "MVC", "Data", "JPA", "H2", "Maven","TailwindCSS", "Thymeleaf"
+                        "Etiket", "Etiket",  "Etiket", "Etiket"
                     ] 
-                },
-                {
-                    "header": "CompanyMS",
-                    "detail": "RESTful Service",
-                    "body": "CompanyMS is a RESTful web service that build upon mysql's mysqlsampledatabase data.",
-                    "link": "https://github.com/eminarikan/companyms",
-                    "tags": [
-                        "Spring", "Boot", "Web", "Data", "JPA", "MySQL", "Maven","RESTful"
-                    ]
-                },
-                {
-                    "header": "CompanyMSApp",
-                    "detail": "Android App",
-                    "body": "CompanyMSApp is an android application that uses companyms as data layer.",
-                    "link": "https://github.com/eminarikan/companyms",
-                    "tags": [
-                        "Android",
-                        "Retrofit"
-                    ]
                 }
             ]
         },
         {
-            "header": "Education",
+            "header": "Eğitim",
             "entries": [
                 {
-                    "header": "Anadolu University - Management Information Systems",
-                    "detail": "2019-...",
-                    "body": "Bachelor's Degree"
+                    "header": "Okul Adı - Bölüm Adı",
+                    "detail": "tarih",
+                    "body": "Seviye"
                 },
                 {
-                    "header": "Ankara University - Sociology",
-                    "detail": "2012-2017",
-                    "body": "Bachelor's Degree"
+                    "header": "Okul Adı - Bölüm Adı",
+                    "detail": "tarih",
+                    "body": "Seviye"
                 }
             ]
         }
@@ -92,92 +65,22 @@
         {
             "icon": "MYSQL-Dark.svg",
             "name": "MySQL",
-            "rate": "FIVE"
+            "rate": "FOUR"
         },
         {
             "icon": "Hibernate-Dark.svg",
             "name": "Hibernate",
-            "rate": "FIVE"
+            "rate": "THREE"
         },
         {
             "icon": "Maven-Dark.svg",
             "name": "Maven",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "Gradle-Dark.svg",
-            "name": "Gradle",
-            "rate": "FOUR"
+            "rate": "TWO"
         },
         {
             "icon": "Spring-Dark.svg",
             "name": "Spring",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "Thymeleaf-Dark.svg",
-            "name": "Thymeleaf",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "Docker.svg",
-            "name": "Docker",
-            "rate": "THREE"
-        },
-        {
-            "icon": "HTML.svg",
-            "name": "HTML",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "Css.svg",
-            "name": "Css",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "TailwindCSS-Dark.svg",
-            "name": "TailwindCSS",
-            "rate": "THREE"
-        },
-        {
-            "icon": "Javascript.svg",
-            "name": "JS",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "Linux-Dark.svg",
-            "name": "Linux",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "Bash-Dark.svg",
-            "name": "Bash",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "Git.svg",
-            "name": "Git",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "Github-Dark.svg",
-            "name": "Github",
-            "rate": "FOUR"
-        },
-        {
-            "icon": "Idea-Dark.svg",
-            "name": "IntellijIDEA",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "VSCode-Dark.svg",
-            "name": "VSCode",
-            "rate": "FIVE"
-        },
-        {
-            "icon": "Eclipse-Dark.svg",
-            "name": "Eclipse",
-            "rate": "FIVE"
+            "rate": "ONE"
         }
     ]
 }
