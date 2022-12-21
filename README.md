@@ -8,7 +8,7 @@ Resume Builder Html, Css, Thymeleaf ve JSON ile yapılmış bir cv dökümanı o
           
           git clone https://github.com/eminarikan/resume-builder
           
-  2. İnen klasörü açtıktan `src/main/resources/` konumundaki `profile.json` dosyasını kendi bilgilerinizle doldurun.
+  2. İnen klasörü açtıktan sonra `src/main/resources/` konumundaki `profile.json` dosyasını kendi bilgilerinizle doldurun.
       - Eğitim, deneyim ve proje kısımlarındaki girdilerin sayısını objeler arasına virgüller koyarak artırıp azalatabilirsiniz. 
       - Yetenekler kısmındaki ikonlar için `src/main/resources/static/icons/skills` klasörüne bakabilir veya kendi ikonlarınızı bu klasöre ekleyebilirsiniz (program bu klasörde ikon arayacaktır dolayısı ile ikonlarınızı buraya ekleyin). 
       - Yeteneklerinizin seviyelerini 1 yıldızdan 5 yıldıza kadar ayarlayabilirisiniz. Bunun için ilgili yetenek objesinin `"rate"` değişkenine `"ONE"`, `"TWO"`, `"THREE"`, `"FOUR"`, `"FIVE"` değerlerinden birini verin.
